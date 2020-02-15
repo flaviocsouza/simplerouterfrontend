@@ -1,0 +1,18 @@
+.options{
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 9fr 1fr;
+    grid-template-areas: "locations" "summary";
+    height: 100vr;
+}
+
+div.locations{
+    grid-area: locations;
+    margin-bottom: 1px black;
+}
+
+div.summary{
+    grid-area: summary;    
+}
